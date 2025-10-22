@@ -13,7 +13,7 @@ RELEASE="$(rpm -E %fedora)"
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-rpm-ostree install nextcloud-client ripgrep ansible emacs-nw micro btrfs-assistant ibm-plex-fonts-all rsms-inter-fonts google-roboto-fonts jetbrains-mono-fonts-all
+rpm-ostree install nextcloud-client ripgrep ansible emacs-nw micro btrfs-assistant ibm-plex-fonts-all rsms-inter-fonts google-roboto-fonts jetbrains-mono-fonts-all qjackctl
 
 #### Example for enabling a System Unit File
 # systemctl enable tlp.service
